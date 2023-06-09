@@ -19,10 +19,13 @@ To start working with this application you have to:
 
 # Short instruction
 
-For FE part: 
-"npm install"
-"npm npm start"
-
+For FE part:
+```
+npm install
+npm npm start
+```
 For BE part: 
-"npm install -g json-server"
-"json-server --watch db.json"
+```
+npm install -g json-server
+json-server --watch db.json
+```
