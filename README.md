@@ -8,7 +8,7 @@ To start working with this application you have to:
         2) Run the command "npm install -g json-server". It's needed to install JSON Server.
         3) Run the command "json-server --watch db.json". It's needed to start a JSON Server. After this step, the back-end part is started.    
   5. After the Back-end part is ready for work, you have to install and run the Front-end part, follow these  steps:
-        1) Open the Front-end Part folder in your code editor's console.
+        1) Open the Front-end Part folder in another code editor's console.
         2) Run the command "npm install". It's needed to install all libraries and dependencies.
         3) Run the command "npm start". It's Needed to start the Front-end Part.
   6. After successfully installing and running all parts you will be able to work on "localhost:3006/dashboard". 
