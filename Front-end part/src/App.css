@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-page__title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#dashboard {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#dashboard td,
+#dashboard th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#dashboard tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#dashboard tr:hover {
+  background-color: #ddd;
+}
+
+#dashboard th {
+  padding: 12px;
+  text-align: left;
+  background-color: #6187da;
+  color: white;
+}
+
+.filter {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-book__button a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.add-book__button {
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #6187da;
+  border: none;
+  border-radius: 15px;
+}
+
+.add-book__button:hover {
+  background-color: #4c69aa;
+}
+
+.add-book__button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.funtional-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #6187da;
+  font-size: 25px;
+  font-weight: 500;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.add-edit-page__title {
+  text-align: center;
+}
+
+.add-edit-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.data__block {
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  background-color: #9fbaf5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-edit__button {
+  margin-top: 20px;
+}
+
+.label-name {
+  font-size: 20px;
+}
+
+.add-a-book__button {
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #3e8e41;
+  border: none;
+  border-radius: 15px;
+}
+
+.add-a-book__button-block {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+button {
+  background-color: #9fbaf5;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 4px;
+  font-size: 16px;
+  margin: 3px;
+}
