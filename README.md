@@ -2,7 +2,7 @@
 To start working with this application you have to:
   1. Clone the repository where you are now (git clone https://github.com/VladChemerskyi/Bits.git).
   2. Open the cloned repository in your Code Editor (e.x. VS Code, WebStorm, etc).
-  3. Open the console.
+  3. Open the console in code editor.
   4. After successfully cloning and opening the project in the editor - you have to start the Back-end part:
         1) Open the Back-end Part folder in your code editor's console.
         2) Run the command "npm install -g json-server". It's needed to install JSON Server.
